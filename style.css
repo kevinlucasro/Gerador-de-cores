@@ -1,0 +1,31 @@
+* {
+    margin:0;
+
+}
+p {
+    width: 65px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.colors {
+    display: flex;
+    width: 20%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn {
+    border-radius: 10px;
+    position: fixed;
+    top: 750px;
+    left: 47%;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #555;
+}
